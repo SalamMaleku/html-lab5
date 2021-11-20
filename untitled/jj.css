@@ -1,0 +1,85 @@
+body {
+    color: #80e8ff;
+    background: #2E69E3;
+    text-align: center; /* выравниваем все содержимое body по центру */
+}
+
+div {
+    width: 800px; /* ширина основного блока */
+    height: 100%; /* высота для наглядности */
+    background: #004A7f; /* цвет блока для наглядности */
+    margin: 0 auto; /* задаем отступ слева и справа auto чтобы сработало выравнивание по центру */
+}
+
+p {
+    font-family: courier;
+    font-size: 160%;
+}
+
+.input {
+    border: 5px solid #cccccc;
+    border-radius: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    background: #ffffff !important;
+    outline: none;
+    height: 34px;
+    width: 220px;
+    color: #80e8ff;
+    font-size: 16px;
+    font-family: Tahoma;
+    text-align: right;
+}
+
+.button {
+    background: #2E8CE3;
+    padding: 7px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    border: solid 1px #73C8F0;
+    cursor: pointer;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background: -moz-linear-gradient(0% 100% 90deg, #2E8CE3, #73C2Fd);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#73C2Fd), to(#2E8CE3));
+    box-shadow: inset 0 1px 0 0 #FFFFFF;
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+    text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+}
+
+.button:hover {
+    background: #80e8ff;
+    background: -moz-linear-gradient(0% 100% 90deg, #2E69E3, #59C2FF);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#59C2FF), to(#2E69E3));
+}
+
+.button:active {
+    background: #80e8ff;
+    background: -moz-linear-gradient(0% 100% 90deg, #2E69E3, #59C2fF);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#59C2FF), to(#2E69E3));
+    box-shadow: inset 1px 1px 0 0 #004A7f;
+    -moz-box-shadow: inset 1px 1px 0 0 #004A7f;
+    -webkit-box-shadow: inset 1px 1px 0 0 #004A7F;
+    padding: 8px 29px 6px 31px;
+}
+
+.select {
+    border: 5px solid #cccccc;
+    border-radius: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    background: #ffffff !important;
+    outline: none;
+    height: 34px;
+    width: 60px;
+    color: #004A7f;
+    font-size: 16px;
+    font-family: Tahoma;
+}

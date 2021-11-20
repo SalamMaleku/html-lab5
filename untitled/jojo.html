@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href="jj.css" rel="stylesheet">
+    <script src="jj2.js"> </script>
+</head>
+<body>
+<form>
+    <div>
+        <p><strong>Конвертёр чисел между системами счисления:</strong></p>
+        <p> число <input type="text" name="number" id="number"  /> </p> из
+        <select class="element select medium" id="input" name="input">
+            <option value="" selected="selected"></option>
+            <option>2</option>
+            <option>8</option>
+            <option>10</option>
+            <option>16</option>
+        </select> системы счисления в
+        <select class="element select medium" id="output" name="output">
+            <option value="" selected="selected"></option>
+            <option>2</option>
+            <option>8</option>
+            <option>10</option>
+            <option>16</option>
+        </select> систему счисления
+        <p><input type="button" value="Перевести" onclick="translaten();" /></p>
+    </div>
+</form>
+</body>
+</html>
